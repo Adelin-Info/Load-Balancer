@@ -1,0 +1,113 @@
+Réception des charges des machines du réseau
+
+
+Lancement des taches sur la machine la moins chargée du réseau
+
+
+
+Affichage des taches en cours d'exécution à l'instant t
+
+Rank  |     HostName     |  Pid  |  Gpid  |  Programme  |  %CPU (ticks) |  %MEM (VmRSS) | Charge 
+La machine ppti-14-509-05 avec le rang 3 n'a pas encore de programme en cours d'éxécution
+La machine ppti-14-509-06 avec le rang 4 n'a pas encore de programme en cours d'éxécution
+La machine ppti-14-509-03 avec le rang 1 n'a pas encore de programme en cours d'éxécution
+2	ppti-14-509-04	    5255    0	../progs/loop	3999		920	25
+2	ppti-14-509-04	    5286    1	../progs/loop	3499		884	25
+2	ppti-14-509-04	    5288    2	../progs/loop	2999		876	25
+2	ppti-14-509-04	    5291    3	../progs/loop	2499		880	25
+2	ppti-14-509-04	    5293    4	../progs/loop	1999		892	25
+2	ppti-14-509-04	    5295    5	../progs/loop	1499		892	25
+2	ppti-14-509-04	    5296    6	../progs/loop	999		880	25
+2	ppti-14-509-04	    5297    7	../progs/loop	499		924	25
+
+
+On retire la machine la plus chargée du réseau, soit la machine 2
+
+
+
+Affichage des taches en cours d'exécution à l'instant t apres le retrait de 2
+
+Rank  |     HostName     |  Pid  |  Gpid  |  Programme  |  %CPU (ticks) |  %MEM (VmRSS) | Charge 
+La machine ppti-14-509-06 avec le rang 4 n'a pas encore de programme en cours d'éxécution
+La machine ppti-14-509-05 avec le rang 3 n'a pas encore de programme en cours d'éxécution
+1	ppti-14-509-03	    5311    0	../progs/loop	5579		888	30
+1	ppti-14-509-03	    5313    1	../progs/loop	3999		908	30
+1	ppti-14-509-03	    5314    2	../progs/loop	3499		920	30
+1	ppti-14-509-03	    5315    3	../progs/loop	2999		924	30
+1	ppti-14-509-03	    5317    4	../progs/loop	2499		884	30
+1	ppti-14-509-03	    5319    5	../progs/loop	1999		864	30
+1	ppti-14-509-03	    5320    6	../progs/loop	1499		888	30
+1	ppti-14-509-03	    5324    7	../progs/loop	999		916	30
+1	ppti-14-509-03	    5325    8	../progs/loop	499		888	30
+
+
+On insère la machine précedemment retirée dans le réseau
+
+
+
+Affichage des taches en cours d'exécution à l'instant t apres l'insertion de 2
+
+Rank  |     HostName     |  Pid  |  Gpid  |  Programme  |  %CPU (ticks) |  %MEM (VmRSS) | Charge 
+1	ppti-14-509-03	    5320    6	../progs/loop	8999		888	50
+1	ppti-14-509-03	    5324    7	../progs/loop	8498		916	50
+2	ppti-14-509-04	    5352    5	../progs/loop	1579		900	17
+1	ppti-14-509-03	    5325    8	../progs/loop	7999		888	50
+4	ppti-14-509-06	    5333    1	../progs/loop	6079		868	17
+1	ppti-14-509-03	    5328    9	../progs/loop	7499		928	50
+4	ppti-14-509-06	    5370    3	../progs/loop	2580		880	17
+3	ppti-14-509-05	    5330    0	../progs/loop	6080		876	21
+3	ppti-14-509-05	    5360    2	../progs/loop	5580		928	21
+3	ppti-14-509-05	    5369    4	../progs/loop	2580		868	21
+
+
+Nouvel affichage des taches en cours d'exécution à l'instant t avant le retrait massif
+
+Rank  |     HostName     |  Pid  |  Gpid  |  Programme  |  %CPU (ticks) |  %MEM (VmRSS) | Charge 
+4	ppti-14-509-06	    5333    1	../progs/loop	10079		868	20
+2	ppti-14-509-04	    5352    5	../progs/loop	5579		900	18
+1	ppti-14-509-03	    5325    8	../progs/loop	11999		888	40
+4	ppti-14-509-06	    5370    3	../progs/loop	6580		880	20
+1	ppti-14-509-03	    5328    9	../progs/loop	11499		928	40
+2	ppti-14-509-04	    5357    7	../progs/loop	2080		880	18
+3	ppti-14-509-05	    5330    0	../progs/loop	10080		876	30
+3	ppti-14-509-05	    5360    2	../progs/loop	9580		928	30
+3	ppti-14-509-05	    5369    4	../progs/loop	6580		868	30
+3	ppti-14-509-05	    5374    6	../progs/loop	3080		888	30
+
+
+On retire toutes les machines afin que toutes les tâches soient réunis sur une machine
+
+
+
+Affichage des taches en cours d'exécution à l'instant t apres le retrait de toutes les machines sauf une
+
+Rank  |     HostName     |  Pid  |  Gpid  |  Programme  |  %CPU (ticks) |  %MEM (VmRSS) | Charge 
+1	ppti-14-509-03	    5375    0	../progs/loop	3499		876	36
+1	ppti-14-509-03	    5377    1	../progs/loop	2999		856	36
+1	ppti-14-509-03	    5379    2	../progs/loop	2499		896	36
+1	ppti-14-509-03	    5380    5	../progs/loop	1999		924	36
+1	ppti-14-509-03	    5382    3	../progs/loop	1499		904	36
+1	ppti-14-509-03	    5383    4	../progs/loop	999		868	36
+1	ppti-14-509-03	    5384    6	../progs/loop	499		876	36
+1	ppti-14-509-03	    5328    9	../progs/loop	18499		928	36
+
+
+On tue la tâche avec le gpid 3
+
+
+Affichage des taches en cours d'exécution à l'instant t apres le gkill -9
+
+Rank  |     HostName     |  Pid  |  Gpid  |  Programme  |  %CPU (ticks) |  %MEM (VmRSS) | Charge 
+1	ppti-14-509-03	    5375    0	../progs/loop	8998		876	65
+1	ppti-14-509-03	    5377    1	../progs/loop	8499		856	65
+1	ppti-14-509-03	    5379    2	../progs/loop	7999		896	65
+1	ppti-14-509-03	    5380    5	../progs/loop	7499		924	65
+1	ppti-14-509-03	    5383    4	../progs/loop	6499		868	65
+1	ppti-14-509-03	    5384    6	../progs/loop	5999		876	65
+1	ppti-14-509-03	    5386    7	../progs/loop	5499		884	65
+1	ppti-14-509-03	    5387    8	../progs/loop	4999		920	65
+1	ppti-14-509-03	    5328    9	../progs/loop	23999		928	65
+
+
+Fin de la simulation
+

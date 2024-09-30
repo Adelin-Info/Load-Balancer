@@ -1,0 +1,54 @@
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[SURCHARGE] 4 est en surcharge avec une charge (20) supérieur à la charge moyenne (10) de 100 %
+[TRANSFERT] La machine 4 transfère une de ses tâches
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[START] La machine 4 a reçu la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[SURCHARGE] 4 est en surcharge avec une charge (45) supérieur à la charge moyenne (12) de 275 %
+[TRANSFERT] La machine 4 transfère une de ses tâches
+[SOUSCHARGE] 2 est en souscharge avec une charge (8) inférieur à la charge moyenne (18) de -55 %
+[CLAIM] La machine avec le rank 2 demande une tache à 4
+[TRANSFERT] La machine 4 transfère une de ses tâches
+[TRANSFERT] La machine 4 transfère toutes ses tâches
+[SURCHARGE] 3 est en surcharge avec une charge (14) supérieur à la charge moyenne (9) de 55 %
+[TRANSFERT] La machine 3 transfère une de ses tâches
+[SURCHARGE] 2 est en surcharge avec une charge (19) supérieur à la charge moyenne (9) de 111 %
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[SURCHARGE] 2 est en surcharge avec une charge (43) supérieur à la charge moyenne (13) de 230 %
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[SOUSCHARGE] 1 est en souscharge avec une charge (13) inférieur à la charge moyenne (21) de -38 %
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[CLAIM] La machine avec le rank 1 demande une tache à 2
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[SOUSCHARGE] 3 est en souscharge avec une charge (13) inférieur à la charge moyenne (22) de -40 %
+[CLAIM] La machine avec le rank 3 demande une tache à 2
+[SURCHARGE] 2 est en surcharge avec une charge (55) supérieur à la charge moyenne (22) de 150 %
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[SOUSCHARGE] 4 est en souscharge avec une charge (15) inférieur à la charge moyenne (25) de -40 %
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[CLAIM] La machine avec le rank 4 demande une tache à 2
+[SURCHARGE] 2 est en surcharge avec une charge (50) supérieur à la charge moyenne (26) de 92 %
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[SURCHARGE] 2 est en surcharge avec une charge (43) supérieur à la charge moyenne (28) de 53 %
+[TRANSFERT] La machine 2 transfère une de ses tâches
+[TRANSFERT] La machine 2 transfère toutes ses tâches
+[TRANSFERT] La machine 4 transfère toutes ses tâches
+[TRANSFERT] La machine 3 transfère toutes ses tâches
+[SURCHARGE] 1 est en surcharge avec une charge (48) supérieur à la charge moyenne (25) de 92 %
+[GKILL] La machine 1 a envoyée le signal 9 au processus dont le pid est 2500 et le gpid est 3

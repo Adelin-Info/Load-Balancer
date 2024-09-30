@@ -1,0 +1,17 @@
+[START] La machine 1 a reçu la commande ../progs/loop
+[EXEC] La machine 1 a exécuté la commande ../progs/loop
+[START] La machine 1 a reçu la commande ../progs/loop
+[EXEC] La machine 1 a exécuté la commande ../progs/loop
+[START] La machine 1 a reçu la commande ../progs/loop
+[EXEC] La machine 1 a exécuté la commande ../progs/loop
+[SURCHARGE] 3 est en surcharge avec une charge (13) supérieur à la charge moyenne (8) de 62 %
+[SURCHARGE] 2 est en surcharge avec une charge (22) supérieur à la charge moyenne (6) de 266 %
+[SOUSCHARGE] 4 est en souscharge avec une charge (5) inférieur à la charge moyenne (11) de -54 %
+[CLAIM] La machine avec le rank 4 demande une tache à 2
+[TRANSFERT] La machine 1 transfère toutes ses tâches
+[REMOVE] La machine 1 a bien été retirer
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[EXEC] La machine 4 a exécuté la commande ../progs/loop
+[SURCHARGE] 2 est en surcharge avec une charge (23) supérieur à la charge moyenne (15) de 53 %
+[INSERT] La machine 1 a bien été insérer
